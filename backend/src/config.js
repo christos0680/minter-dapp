@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "Mathstronauts";
+const description = "";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -17,12 +17,83 @@ const layerConfigurations = [
     growEditionSizeTo: 5,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Background Lighting" },
+      { name: "Planets" },
+      { name: "Jet Pack Thrust" },
+      { name: "Suit" },
+      { name: "Chest Plate" },
+      { name: "Suit Connector" },
+      { name: "Accessories" },
+      { name: "Suit Connector" },
+      { name: "Helmets" },
+    ],
+  },
+
+  {
+    growEditionSizeTo: 10,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Space" },
+      { name: "Planets" },
+      { name: "Jet Pack Thrust" },
+      { name: "Suit" },
+      { name: "Chest Plate" },
+      { name: "Suit Connector" },
+      { name: "Accessories" },
+      { name: "Suit Connector" },
+      { name: "Alien Helmet" },
+      { name: "Alien Texture" },
+    ],
+  },
+
+  {
+    growEditionSizeTo: 15,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Space" },
+      { name: "Planets" },
+      { name: "Jet Pack Thrust" },
+      { name: "Suit" },
+      { name: "Chest Plate" },
+      { name: "Suit Connector" },
+      { name: "Accessories" },
+      { name: "Suit Connector" },
+      { name: "HyperVision Helmet" },
+      { name: "HyperVision Texture" },
+    ],
+  },
+
+  {
+    growEditionSizeTo: 20,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Space" },
+      { name: "Planets" },
+      { name: "Jet Pack Thrust" },
+      { name: "Suit" },
+      { name: "Chest Plate" },
+      { name: "Suit Connector" },
+      { name: "Accessories" },
+      { name: "Suit Connector" },
+      { name: "Robo Helmet" },
+      { name: "Robo Texture" },
+    ],
+  },
+
+  {
+    growEditionSizeTo: 25,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Space" },
+      { name: "Planets" },
+      { name: "Jet Pack Thrust" },
+      { name: "Suit" },
+      { name: "Chest Plate" },
+      { name: "Suit Connector" },
+      { name: "Accessories" },
+      { name: "Suit Connector" },
+      { name: "Standard Helmet" },
+      { name: "Standard Texture" },
     ],
   },
 ];
